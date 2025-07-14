@@ -1,0 +1,64 @@
+.meredith-footer {
+  background: #f7f7f7;
+  padding: 2em 1em;
+  text-align: center;
+  font-family: sans-serif;
+}
+.meredith-footer .footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.meredith-footer .logo img {
+  max-width: 200px;
+  height: auto;
+}
+.meredith-footer .cta-buttons {
+  margin: 1em 0;
+}
+.meredith-footer .cta-buttons a {
+  display: inline-block;
+  margin: 0 .5em;
+  padding: .6em 1.2em;
+  background: #0073aa;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background .2s;
+}
+.meredith-footer .cta-buttons a:hover {
+  background: #005177;
+}
+.meredith-footer .social-icons a {
+  margin: 0 .3em;
+  color: #444;
+  font-size: 1.4em;
+  display: inline-block;
+  transition: color .2s;
+}
+.meredith-footer .social-icons a:hover {
+  color: #0073aa;
+}
+.meredith-footer .contact-info h2 {
+  font-size: 1em;
+  margin: .5em 0;
+}
+.meredith-footer .links {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
+}
+.meredith-footer .links li {
+  display: inline-block;
+  margin: 0 .5em;
+}
+.meredith-footer .links a {
+  color: #0073aa;
+  text-decoration: none;
+}
+.meredith-footer .legal {
+  margin-top: 1.5em;
+  font-size: .9em;
+  color: #666;
+}
+
+
