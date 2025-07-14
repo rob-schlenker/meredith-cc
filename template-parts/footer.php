@@ -48,7 +48,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     </ul> -->
 
     <div class="legal">
-      <div>Paid for by Meredith for Michigan</div>
+      <div>Paid for by Meredith for Clawson City Council</div>
       <div>
           Created by <strong>Rob Schlenker</strong>
       </div>
