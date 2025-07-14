@@ -46,10 +46,10 @@ function mallory_donate_accordion_shortcode() {
 
     ob_start();
     ?>
-    <div class="mallory-donate-accordion">
-      <a class="donate-bar-text mallory-donate-link" href="<?php echo esc_url( $base_url ); ?>" target="_blank" rel="noopener">
+    <div class="mallory-donate-accordion ">
+      <a class="donate-bar-text mallory-donate-link btn-with-arrow" href="<?php echo esc_url( $base_url ); ?>" target="_blank" rel="noopener">
         Donate Now to Elect Meredith for Clawson City Council
-        <i class="fa fa-arrow-right donate-arrow" aria-hidden="true"></i>
+        <i class="fa fa-arrow-right donate-arrow arrow-icon" aria-hidden="true"></i>
       </a>
     </div>
     <?php

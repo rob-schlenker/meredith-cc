@@ -31,6 +31,13 @@ body {
 	text-transform: uppercase;
 }
 
+.mallory-donate-accordion a:hover {
+	/* color: #91d8c9;
+	 */
+	 opacity: 0.6;
+}
+
+
 .mallory-donate-accordion .mallory-donate-icon {
 	display: inline-flex;
 	align-items: center;
@@ -128,6 +135,32 @@ body {
 @keyframes wipeMask {
   to {
     clip-path: inset(0 0 0 0);
+  }
+}
+
+/* make sure icon can move */
+.arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+/* on hover of the parent link, slide the arrow right */
+.btn-with-arrow:hover .arrow-icon {
+  transform: translateX(6px);
+}
+
+/* on hover, kick off an infinite, alternate animation */
+.btn-with-arrow:hover .arrow-icon {
+  animation: arrowSlide .5s ease-in-out infinite alternate;
+}
+
+/* keyframes slide the icon right, then back */
+@keyframes arrowSlide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(8px);
   }
 }
 

@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 .meredith-footer .logo img {
-  max-width: 200px;
+  max-width: 300px;
   height: auto;
 }
 .meredith-footer .cta-buttons {
@@ -41,6 +41,7 @@
   color: #0073aa;
 }
 .meredith-footer .contact-info h2 {
+  color: #18453c;
   font-size: 1em;
   margin: .5em 0;
 }
