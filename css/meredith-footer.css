@@ -19,14 +19,16 @@
   display: inline-block;
   margin: 0 .5em;
   padding: .6em 1.2em;
-  background: #0073aa;
+  background: #91d8c9;
   color: #fff;
   text-decoration: none;
   border-radius: 3px;
   transition: background .2s;
 }
 .meredith-footer .cta-buttons a:hover {
-  background: #005177;
+  background: white;
+  color: #91d8c9;
+  outline: 1px solid #91d8c9;
 }
 .meredith-footer .social-icons a {
   margin: 0 .3em;

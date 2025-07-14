@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
     <div class="cta-buttons">
       <!-- <a href="<?php echo esc_url( home_url( '/volunteer' ) ); ?>">Volunteer</a> -->
-      <a href="<?php echo esc_url( home_url( '/donate' ) ); ?>">Donate</a>
+      <a href="https://secure.actblue.com/donate/mp-clawson">Donate</a>
     </div>
 
     <div class="social-icons">
@@ -50,9 +50,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     <div class="legal">
       <div>Paid for by Meredith for Michigan</div>
       <div>
-        <a href="http://apolloartistry.com/" target="_blank">
           Created by <strong>Rob Schlenker</strong>
-        </a>
       </div>
     </div>
   </div>

@@ -9,16 +9,17 @@ body {
 .site-header {
 	justify-content: center !important;
 	color: #18453c !important;
-	padding-block-start: 0.5em !important;
-	padding-block-end: 0.5em !important;
+	padding-block-start: 0.2em !important;
+	padding-block-end: 0.2em !important;
 	
 }
 
 .mallory-donate-accordion {
 	margin: .2em 0;
 }
-.mallory-donate-accordion summary {
+.mallory-donate-accordion a {
 	cursor: pointer;
+	color: black;
 	font-size: 1em;
 	font-weight: bold;
 	position: relative;
@@ -113,10 +114,27 @@ body {
 	top: 95px !important;
 }
 
+.wipe-container {
+  overflow: hidden;
+  display: inline-block; /* shrink-wrap to image width */
+  background-color: #18453c;
+}
+
+.wipe-img {
+  clip-path: inset(0 0 0 100%);
+  animation: wipeMask 0.8s ease-out 0.4s forwards;
+}
+
+@keyframes wipeMask {
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
 @media screen and (max-width: 600px) {
-  .mallory-donate-accordion summary {
-    font-size: .85rem;
-    padding: .2rem;
+  .mallory-donate-accordion a {
+    font-size: .45rem;
+    padding: .1rem;
   }
   
 }

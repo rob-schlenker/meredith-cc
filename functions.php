@@ -41,46 +41,16 @@ function mallory_donate_accordion_shortcode() {
     // Define your fixed amounts
     $amounts = array( 5, 10, 25, 100, 250 );
     // Base ActBlue URL
-    $base_url = 'https://secure.actblue.com/donate/mm-web-2025'
+    $base_url = 'https://secure.actblue.com/donate/mp-clawson'
               . '?source=WEB_NBI_MM_ORG_WebMain_20250402';
 
     ob_start();
     ?>
     <div class="mallory-donate-accordion">
-      <details>
-        <summary class="donate-bar-text" aria-expanded="false">
-          Donate Now to Elect Meredith for Clawson City Council
-          <i class="fa fa-arrow-right donate-arrow" aria-hidden="true"></i>
-          <!-- <i class="fa fa-times" aria-hidden="true"></i> -->
-        </summary>
-        
-
-        <div class="mallory-donate-content">
-          <div>
-            <h1>Donate to Join Team Meredith</h1>
-            <p>If you’ve saved your information with ActBlue Express,
-              your donation will go through immediately.</p>
-          </div>
-          <div class="mallory-donate-buttons">
-            <?php foreach ( $amounts as $amt ) : ?>
-              <a
-                class="mallory-button "
-                href="<?php echo esc_url( $base_url . "&amp;amount={$amt}&amp;express_lane=true" );?>"
-                target="_blank"
-              >
-                <?php echo '$' . $amt; ?>
-              </a>
-            <?php endforeach; ?>
-            <a
-              class="mallory-button"
-              href="<?php echo esc_url( $base_url ); ?>"
-              target="_blank"
-            >
-              Other Amount
-            </a>
-          </div>
-        </div>
-      </details>
+      <a class="donate-bar-text mallory-donate-link" href="<?php echo esc_url( $base_url ); ?>" target="_blank" rel="noopener">
+        Donate Now to Elect Meredith for Clawson City Council
+        <i class="fa fa-arrow-right donate-arrow" aria-hidden="true"></i>
+      </a>
     </div>
     <?php
     return ob_get_clean();
