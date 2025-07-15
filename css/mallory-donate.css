@@ -118,7 +118,7 @@ body {
 }
 
 .top-banner-logo {
-	top: 95px !important;
+	top: 55px !important;
 }
 
 .wipe-container {
@@ -169,5 +169,13 @@ body {
     font-size: .45rem;
     padding: .1rem;
   }
+
+  .top-banner-logo {
+	top: 45px !important;
+}
+
+.donate-btn .elementor-button {
+	height: inherit !important;
+}
   
 }
