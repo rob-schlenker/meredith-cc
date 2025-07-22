@@ -132,6 +132,12 @@ body {
   animation: wipeMask 0.8s ease-out 0.4s forwards;
 }
 
+.text-container {
+    max-width: clamp(300px, 70ch, 700px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
 @keyframes wipeMask {
   to {
     clip-path: inset(0 0 0 0);
