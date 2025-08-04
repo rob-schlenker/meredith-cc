@@ -50,7 +50,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     <div class="legal">
       <div>Paid for by Meredith for Clawson City Council</div>
       <div>
-        <a style="color: black" href="https://rob-schlenker-dev.netlify.app/">Created by <strong>Rob Schlenker</strong></a>
+        <a style="color: black" href="https://rob-schlenker-dev.netlify.app/">Created by <strong>Rob Schlenker</strong> </a>
           
       </div>
     </div>
